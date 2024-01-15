@@ -4,17 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <a href="../index.html">Главная</a>
-    <a href="../info/about.html">Обо мне</a>
-    <a href="../map/map.html">Карта поездок</a>
-    <a href="catalog.html">Каталог путешествий</a>
-    <a href="../contacts/contacts.html">Контакты</a>
-    <a href="../form/form.html">Оставить заявку</a>
+    <nav>
+      <a class="header__link" href="../index.html">Главная</a>
+      <a class="header__link" href="../info/about.html">Обо мне</a>
+      <a class="header__link" href="../map/map.html">Карта поездок</a>
+      <a class="header__link" href="catalog.html">Каталог путешествий</a>
+      <a class="header__link" href="../contacts/contacts.html">Контакты</a>
+      <a class="header__link" href="../form/form.html">Оставить заявку</a>
+    </nav>
 
-    <h1>Каталог</h1>
-    <p>
+    <h1 class="title">Каталог</h1>
+    <p class="text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, corporis?
       Autem impedit repudiandae ab harum nostrum quam consequuntur nobis illum
       dolorem laudantium dolorum dolores voluptatum quis minus exercitationem
@@ -33,29 +46,41 @@
       veritatis, praesentium enim quos tenetur cupiditate quaerat! Aliquam natus
       voluptatem sit provident eius facilis quasi?
     </p>
-    <h2>Путешествие 1</h2>
+    <h2 class="title2">Путешествие 1</h2>
     <a href="../zones/zone1.html"
       ><img src="../img/nature1.jpg" alt="nature1" title="Путешествие 1"
     /></a>
-    <p>
+    <p class="text">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis,
       accusantium?
     </p>
-    <h2>Путешествие 2</h2>
+    <h2 class="title2">Путешествие 2</h2>
     <a href="../zones/zone2.html"
       ><img src="../img/nature2.jpg" alt="nature2"
     /></a>
-    <p>
+    <p class="text">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis,
       accusantium?
     </p>
-    <h2>Путешествие 3</h2>
+    <h2 class="title2">Путешествие 3</h2>
     <a href="../zones/zone3.html"
       ><img src="../img/nature3.jpg" alt="nature3"
     /></a>
-    <p>
+    <p class="text">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis,
       accusantium?
     </p>
+
+    <div class="card" style="width: 18rem">
+      <img src="../img/nature1.jpg" class="card-img-top" alt="nature1" />
+      <div class="card-body">
+        <h5 class="card-title">Посмотрим еще раз</h5>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+          exercitationem laborum aliquam, expedita voluptatibus ab?
+        </p>
+        <a href="#" class="btn btn-light">Go somewhere</a>
+      </div>
+    </div>
   </body>
 </html>

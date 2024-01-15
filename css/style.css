@@ -1,0 +1,95 @@
+/* @font-face {
+  font-family: Dracula;
+  src: url(../fonts/Montserrat-Light.ttf);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color_link: cornflowerblue;
+  --color_link_hover: darkgreen;
+  --color_link_active: red;
+  --color_title: #222222;
+}
+
+html {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__link {
+  color: var(--color_link);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__link:hover {
+  color: var(--color_link_hover);
+}
+
+.header__link:active {
+  color: var(--color_link_active);
+}
+
+.title {
+  color: var(--color_title);
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.title2 {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.form {
+  margin: 10px 20px;
+}
+
+.form__field {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.form__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form__button {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
